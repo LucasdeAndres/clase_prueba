@@ -1,0 +1,42 @@
+.card {
+    height: 400px;
+    width: 200px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid grey;
+}
+
+.card .img {
+    height: 50%;
+    width: 100%;
+}
+
+.card .img img {
+    height: 100%;
+    width: 100%;
+}
+
+.card .info {
+    padding-top: 10px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card .info .info2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card .info .info2 .info3 {
+    display: flex;
+    background-color: gray;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+}

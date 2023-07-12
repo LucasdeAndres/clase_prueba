@@ -1,0 +1,22 @@
+.body {
+    border: 4px solid green;
+    display: flex;
+    justify-content: center;
+    height: 68vh;
+    background-color: rgba(0, 255, 0, 0.2);
+    flex-direction: column;
+    
+}
+
+.body .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.body .title {
+    align-self: center;
+    margin-bottom: 20px;
+}
